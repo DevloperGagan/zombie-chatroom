@@ -1,0 +1,16 @@
+.developer-contact {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .developer-contact a {
+    text-decoration: none;
+    color: #4caf50; /* Set color of the hyperlink */
+  }
+  
+  .glowing {
+    animation: glow 1.5s infinite alternate; /* Define the glowing animation */
+  }
+  
+  
+  

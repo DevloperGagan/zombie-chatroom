@@ -1,0 +1,291 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #222;
+  color: #ddd;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #444;
+  color: #ddd;
+  padding: 20px;
+  margin-right: 10px; /* Add margin to the right side */
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+  color: #ffa500;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.chat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px; /* Add margin to the left side */
+}
+
+.chat-header {
+  background-color: #333;
+  color: #ffa500;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-header h2 {
+  margin-bottom: 10px;
+}
+
+.chat-header ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.chat-header li {
+  margin-right: 10px;
+}
+
+.chat-messages {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #111;
+  border-top: 1px solid #333;
+}
+
+.chat-messages ul {
+  list-style-type: none;
+}
+
+.chat-messages li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.username {
+  font-weight: bold;
+  color: #ffa500;
+}
+
+.chat-input {
+  padding: 20px;
+  display: flex;
+  background-color: #444;
+  border-top: 1px solid #333;
+}
+
+.chat-input input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #333;
+  color: #ddd;
+}
+
+.chat-input button {
+  padding: 10px 20px;
+  background-color: #ffa500;
+  color: #222;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background-color: #ffd700;
+}
+
+.chat-messages {
+  max-height: 400px;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: #000000; /* Dark background for chat messages */
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.text {
+  color: #ffffff; /* White text color for chat messages */
+}
+
+.message-input {
+  margin-top: 20px;
+  display: flex;
+}
+
+.message-input input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #72767d; /* Discord dark theme input border color */
+  background-color: #4d4d4d; /* Slightly lighter input background color */
+  color: #ffffff; /* White text color */
+}
+
+.message-input button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffa500; /* Orange button color */
+  color: #ffffff; /* White text color */
+  cursor: pointer;
+}
+
+.message-input button:hover {
+  background-color: #ffa500; /* Darker orange on hover */
+}
+
+.popup {
+  background-color:#2b2b2b; /* Darker popup background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  }
+  
+  .popup h2 {
+  color: #ffa500; /* Orange text color for a mysterious touch */
+  }
+  
+  .popup form {
+  margin-top: 20px;
+  }
+  
+  .popup input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #72767d; /* Discord dark theme input border color /
+  background-color: #4d4d4d; / Slightly lighter input background color /
+  color: #ffffff; / White text color */
+  }
+  
+  .popup button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffa500; /* Orange button color for a haunted feel /
+  color: #ffffff; / White text color */
+  cursor: pointer;
+  }
+  
+  .popup button:hover {
+  background-color: #ffa500; /* Darker orange on hover */
+  }
+  
+  .card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Use the full viewport height */
+  }
+  
+  .card {
+  background-color: #2b2b2b; /* Dark card background /
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  max-width: 400px; / Adjust as needed */
+  }
+  
+  .avatar-container {
+  flex: 0 0 auto;
+  margin-right: 20px;
+  }
+  
+  .avatar {
+  width: 80px; /* Adjust avatar size as needed /
+  height: 80px; / Adjust avatar size as needed /
+  border-radius: 50%; / Make the avatar circular */
+  }
+  
+  .content {
+  flex: 1;
+  }
+  
+  .popup h2 {
+  color: #ffa500; /* Orange text color for title */
+  }
+  
+  .popup form {
+  margin-top: 20px;
+  }
+  
+  .popup input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #72767d; /* Discord dark theme input border color /
+  background-color: #4d4d4d; / Slightly lighter input background color /
+  color: #ffffff; / White text color */
+  }
+  
+  .popup button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffa500; /* Orange button color /
+  color: #ffffff; / White text color */
+  cursor: pointer;
+  }
+  
+  .popup button:hover {
+  background-color: #ffa500; /* Darker orange on hover */
+  }
+  
+  /* App.css */
+  
+  @keyframes glow {
+  0% {
+  color: #ffa500; /* Initial color (orange) /
+  text-shadow: 0 0 10px #ffa500; / Initial shadow (orange) /
+  }
+  50% {
+  color: #ffa500; / Middle color (orange) /
+  text-shadow: 0 0 20px #ffa500; / Middle shadow (orange) /
+  }
+  100% {
+  color: #ffa500; / Final color (orange) /
+  text-shadow: 0 0 10px #ffa500; / Final shadow (orange) */
+  }
+  }
+  
+  .haunted-quotes {
+  margin-bottom: 20px;
+  animation: glow 5s infinite alternate; /* Apply the glow animation */
+  }
+
+  
