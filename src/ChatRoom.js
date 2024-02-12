@@ -80,7 +80,8 @@ const ChatRoom = ({ username }) => {
         <button onClick={handleSendMessage}>Summon</button>
       </div>
       <div className="developer-contact glowing">
-        <p>Made with ❤ <a href="http://www.instagram.com/thatlastsurvivor/">thatlastsurvivor</a> For assistance, contact the developer <a href="mailto:himanshupradhhan@hotmail.com">here</a>.</p>
+        <p>Made with ❤ <a href="http://www.instagram.com/thatlastsurvivor/">thatlastsurvivor</a> For assistance, contact the developer <a href="mailto:himanshupradhhan@hotmail.com">here</a> DM for source 
+          code.</p>
       </div>
     </div>
   );
