@@ -10,11 +10,9 @@ The Zombie Chatroom is a real-time chat application built with React and Firebas
 
 ## Features
 
-- Real-time chat functionality
-- User authentication with Firebase Authentication
-- Firestore database for storing messages and user data
-- Responsive design for seamless experience across devices
-- Customizable avatars for personalization
+- Real-time chat functionality. 
+- Firestore database for storing messages and user data. 
+- Responsive design for seamless experience across devices. 
 
 ## Usage
 
