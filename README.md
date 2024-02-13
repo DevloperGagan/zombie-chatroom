@@ -2,7 +2,7 @@
 
 Welcome to the Zombie Chatroom, powered by React and Firebase, hosted by the Zombie Server!
 
-![Zombie Server](https://www.zombieserver.netlify.app)
+![Zombie Server]()
 
 ## Description
 
@@ -18,7 +18,7 @@ The Zombie Chatroom is a real-time chat application built with React and Firebas
 
 ## Usage
 
-1. Visit [Zombie Server](https://www.zombieserver.netlify.app) to access the chatroom.
+1. Visit [Zombie Server](https://zombieserver.netlify.app) to access the chatroom.
 2. Sign up or log in to start chatting.
 3. Join existing chatrooms or create new ones.
 4. Communicate with other survivors, exchange information, and stay vigilant against the undead threat.
