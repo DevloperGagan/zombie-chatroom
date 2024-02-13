@@ -2,7 +2,7 @@
 
 Welcome to the Zombie Chatroom, powered by React and Firebase, hosted by the Zombie Server!
 
-![Zombie Server](zombie-avatar.png)
+![Zombie Server](src/zombie-avatar.png)
 
 ## Description
 
