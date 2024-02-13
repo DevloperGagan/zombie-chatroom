@@ -25,7 +25,7 @@ The Zombie Chatroom is a real-time chat application built with React and Firebas
 
 To run the Zombie Chatroom locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/zombie-chatroom.git`
+1. Clone the repository: `git clone https://github.com//DevloperGagan/zombie-chatroom.git`
 2. Navigate to the project directory: `cd zombie-chatroom`
 3. Install dependencies: `npm install`
 4. Set up Firebase:
