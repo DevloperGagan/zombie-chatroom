@@ -42,3 +42,7 @@ If you'd like to contribute to the Zombie Chatroom project, feel free to fork th
 ## Support
 
 For any inquiries or issues, please contact our support team at himanshupradhhan@hotmail.com . 
+
+
+
+DM our creator [@thatlastsurvivor](https://www.instagram.com/thatlastsurvivor) . 
