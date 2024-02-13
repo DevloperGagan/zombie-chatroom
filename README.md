@@ -18,7 +18,7 @@ The Zombie Chatroom is a real-time chat application built with React and Firebas
 
 1. Visit [Zombie Server](https://zombieserver.netlify.app) to access the chatroom.
 2. Sign up or log in to start chatting.
-3. Join existing chatrooms or create new ones.
+3. Join existing chatroom. 
 4. Communicate with other survivors, exchange information, and stay vigilant against the undead threat.
 
 ## Installation
