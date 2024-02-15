@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import firebase from 'firebase/compat/app'; // Correct import syntax for Firebase
-import 'firebase/compat/database'; // Correct import syntax for Firebase Realtime Database
+import firebase from 'firebase/compat/app'; // import syntax for Firebase
+import 'firebase/compat/database'; //import syntax for Firebase Realtime Database
 import WelcomePopup from './WelcomePopup';
 import ChatRoom from './ChatRoom';
 import './App.css';
