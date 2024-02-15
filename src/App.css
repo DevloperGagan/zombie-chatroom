@@ -227,8 +227,8 @@ body {
   
   .avatar {
   width: 80px; /* Adjust avatar size as needed /
-  height: 80px; / Adjust avatar size as needed /
-  border-radius: 50%; / Make the avatar circular */
+  height: 80px; /* Adjust avatar size as needed /
+  border-radius: 50%; /* Make the avatar circular */
   }
   
   .content {
