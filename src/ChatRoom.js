@@ -29,7 +29,7 @@ const ChatRoom = ({ username }) => {
       for (let key in messagesData) {
         messagesArray.push(messagesData[key]);
       }
-      setMessages(messagesArray);
+      
       scrollToBottom();
     });
   }, []);
