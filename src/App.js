@@ -8,7 +8,7 @@ import './App.css';
 const firebaseConfig = {
   apiKey: "AIzaSyCC3ENCbXGHnGGDLkFg3SY5545wobIiz64",
   authDomain: "zombie-64df0.firebaseapp.com",
-  databaseURL: "https://zombie-64df0-default-rtdb.asia-southeast1.firebasedatabase.app",
+  databaseURL: "https://zombie-64df0-default-rtdb.firebaseio.com/",
   projectId: "zombie-64df0",
   storageBucket: "zombie-64df0.appspot.com",
   messagingSenderId: "388952215569",
