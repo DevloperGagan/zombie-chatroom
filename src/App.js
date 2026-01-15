@@ -7,13 +7,13 @@ import './App.css';
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCW_T12aiRs220zcuRRuXofBXfRoESx_F4",
-  authDomain: "zombiechat-73a7b.firebaseapp.com",
-  databaseURL: "https://zombiechat-73a7b-default-rtdb.firebaseio.com",
-  projectId: "zombiechat-73a7b",
-  storageBucket: "zombiechat-73a7b.appspot.com",
-  messagingSenderId: "216762681428",
-  appId: "1:216762681428:web:4576b4a7ddb9ef33f305c1"
+  apiKey: "AIzaSyCC3ENCbXGHnGGDLkFg3SY5545wobIiz64",
+  authDomain: "zombie-64df0.firebaseapp.com",
+  projectId: "zombie-64df0",
+  storageBucket: "zombie-64df0.firebasestorage.app",
+  messagingSenderId: "388952215569",
+  appId: "1:388952215569:web:cf8954d1628c3dce2961b0",
+  measurementId: "G-MWJFFQ3LZF"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
