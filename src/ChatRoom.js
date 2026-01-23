@@ -15,13 +15,15 @@ const getRandomQuote = () =>
   HauntedQuotes[Math.floor(Math.random() * HauntedQuotes.length)];
 
 const ChatRoom = ({ username }) => {
-  if (!username) return null;
 
+  // ✅ HOOKS FIRST — always
   const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState('');
   const messagesEndRef = useRef(null);
 
   useEffect(() => {
+    if (!username) return; // safe guard inside effect
+
     const messagesRef = firebase
       .database()
       .ref('messages')
@@ -35,7 +37,10 @@ const ChatRoom = ({ username }) => {
 
     messagesRef.on('value', handleData);
     return () => messagesRef.off('value', handleData);
-  }, []);
+  }, [username]);
+
+  // ✅ CONDITIONAL RETURN AFTER hooks
+  if (!username) return null;
 
   const handleSendMessage = () => {
     if (!newMessage.trim()) return;

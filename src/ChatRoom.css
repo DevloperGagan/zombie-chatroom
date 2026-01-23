@@ -11,6 +11,44 @@
   .glowing {
     animation: glow 1.5s infinite alternate; /* Define the glowing animation */
   }
-  
+  .chat-room {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* full screen */
+  background: #0b0b0b;
+  color: #fff;
+}
+
+.chat-messages {
+  flex: 1; /* take remaining space */
+  overflow-y: auto;
+  padding: 15px;
+}
+
+.message-input {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.message-input input {
+  flex: 1;
+  padding: 0px;
+  background: #1b1b1b;
+  border: none;
+  color: #fff;
+  outline: none;
+}
+
+.message-input button {
+  padding: 10px 16px;
+  background: crimson;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
   
   
