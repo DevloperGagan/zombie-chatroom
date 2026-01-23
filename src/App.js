@@ -6,13 +6,13 @@ import ChatRoom from './ChatRoom';
 import './App.css';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCC3ENCbXGHnGGDLkFg3SY5545wobIiz64",
-  authDomain: "zombie-64df0.firebaseapp.com",
-  databaseURL: "https://zombie-64df0-default-rtdb.firebaseio.com",
-  projectId: "zombie-64df0",
-  storageBucket: "zombie-64df0.appspot.com",
-  messagingSenderId: "388952215569",
-  appId: "1:388952215569:web:cf8954d1628c3dce2961b0"
+  apiKey: "AIzaSyBlsrAEsOts109VisbaD1VQ9FwIu88fjRs",
+  authDomain: "zombiechatv2.firebaseapp.com",
+  databaseURL: "https://zombiechatv2-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "zombiechatv2",
+  storageBucket: "zombiechatv2.firebasestorage.app",
+  messagingSenderId: "544716978541",
+  appId: "1:544716978541:web:0e9fd839565db35f654264"
 };
 
 if (!firebase.apps.length) {
